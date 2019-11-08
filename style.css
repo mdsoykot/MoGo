@@ -1,0 +1,395 @@
+/* star global css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: ;
+}
+@font-face{
+    font-family: KaushanScript;
+    src: url("fonts/src/KaushanScript-Regular.ttf");
+}
+/* end global css */
+
+/* Start Heading */
+#header{
+    height: 850px;
+    background: linear-gradient( rgba(236, 154, 147, 0.1),#EFDA8A), url('images/banner.png') top  no-repeat fixed;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+/* star navbar */
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-item{
+    padding:0 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:yellow;
+    border-bottom: 2px solid yellow;
+}
+/* end navbar */
+
+/* start  banner heading*/
+.border-none:hover{
+    border-bottom: none;
+    color: white;
+}
+.banner-heading{
+   color: white;
+}
+.sub-heading{
+    font-family: KaushanScript;
+    font-size: 72px;
+}
+.heading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+.underline{
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    /* margin-top: 30px; */
+}
+
+/* end banner heading */
+
+/* star overview */
+.single-line{
+    color: white;
+    border-top: 2px solid white;
+    width: 20%;
+    float: left;
+    margin: 0 2%;
+}
+.big{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.overlap{
+    width: 50%;
+    margin:0;
+    margin-top: -3px;
+    border-bottom: 4px solid rgb(233, 42, 42);
+}
+/* end overvierw */
+/* end heading */
+
+/* start about-us */
+.about-us-heading-wrapper h2,.service-heading-wrapper h2{
+    font-family: KaushanScript;
+    font-size: 24px;
+}
+.about-us-heading-wrapper h1,.service-heading-wrapper h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.red{
+    width: 60px;
+    border-bottom: 2px solid rgb(233, 42, 42);
+}
+.img-container{
+   position: relative;
+}
+.img-about{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img-container:hover .img-about {
+    border-right: 10px solid  #95E1D3;
+    border-bottom: 10px solid  #95E1D3;
+  }
+ 
+.img-container:hover .hover-text {
+    opacity: 1;
+  }
+.img-container:hover .hover-text-team{
+    opacity: .8;
+}
+.icon{
+    font-size: 1.7rem;
+}
+.hover-text {
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top:48%;
+    padding-top: 20%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background: url('images/hover.png') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+   
+}
+.hover-text-team{
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top:48%;
+    padding-top: 20%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background: url('images/hover.png') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+   
+}
+/* end about-us */
+
+/* Star work overview */
+.about-description-single{
+    border: 1px solid white;
+}
+.about-us-description{
+    background: #95E1D3;
+    color: white;
+}
+.about-us-description h1{
+    font-size: 72px;
+}
+/* end overvieww */
+
+/* Start service */
+.service-img{
+    float: left;
+}
+.service-details{
+    margin-left: 45px;
+}
+.service-details h6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.service-details p{
+    font-size: 15px;
+    font-family: 'roboto'
+}
+/* end service */
+
+/* unique service */
+.unique-design{
+    background: url('images/unique_design.png');
+}
+.tab-mobile-wrapper{
+    position: relative;
+}
+.mobile-img{
+    position: absolute;
+    left: 60%;
+    bottom: -20%;
+}
+/* unique service */
+
+/* what we do (javaScript) */
+.u-click, .u-click1, .u-click2{
+    display: none;
+    background: none;
+    border: none;
+}
+.d-click, .d-click1, .d-click2{
+    background: none;
+    border: none;
+}
+.text, .text1, .text2{
+    display: none;
+}
+.carousel-inner{
+    padding: 0 15%;
+    text-align: center;
+}
+/* end what we do */
+
+/* start quote */
+.slider-carousel{
+    background: rgb(245, 235, 235);
+}
+.carousel-img-wrap{
+    float: left;
+}
+.carousel-img-wrap{
+    padding-right: 20px;
+}
+/* end quote */
+
+/* star team  */
+.team-icon{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.team-icon-wrapper{
+    background: hsl(46, 100%, 50%);
+    width: 42%;
+    margin-top: 30%;
+}
+.team-icon:hover{
+  background: rgba(211, 29, 5, 0.822);
+}
+/* end team  */
+
+/* menufacturer */
+.menufacturer{
+    background: rgb(212, 206, 206);
+}
+.manufacter-img-container img{
+    width: 80%;
+}
+/* end menufacturer */
+
+/* protfolio section */
+.slider{
+    height: 200px;
+}
+.protfolio{
+    overflow: hidden;
+}
+.p-img{
+    float: left;
+    width: 25%;
+}
+/* end protfolio  */
+
+/* start client */
+.clients{
+    background: url('images/client-banner.jpg') ;
+    overflow: hidden;
+}
+.img-container-client{
+    float: left;
+}
+.client-details{
+    padding:0 120px;
+}
+/* end client */
+
+/* star blog */
+.img-blog-container{
+    position: relative;
+}
+.blog-date{
+    position: absolute;
+    left: -6%;
+    bottom: 10%;
+}
+/* end blog */
+
+/* star location */
+.location{
+    background: url('images/unique_design.png');
+}
+/* end location */
+
+/* start footer */
+.footer-icon-wrapper{
+    float: right;
+    margin-top: -40px;
+}
+.footer-icon{
+    padding: 8px;
+    font-size: 1.1rem;
+}
+.blog-img-wrapper{
+    float: left;
+    /* overflow: hidden; */
+    margin-right: 20px;
+}
+
+/* end footer */
+
+/* start meadia query */
+@media screen and (max-width:1000px){
+    .nav-link:hover{
+        border-bottom:none;
+    }
+    .about-description-single{
+       margin: 30px 0;
+    }
+    .clients{
+        background: rgb(228, 221, 221);
+    }
+    .signle-blog{
+        text-align: center;
+    }
+    .blog-date{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .single-line-wrapper{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .mobile-img{
+        position: relative;
+        left: 0;
+        margin-top: 40px;
+    }
+    .mobile-img{
+        display: none;
+    }
+    .s-img{
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width:576px){
+    
+    .mobile-img{
+        display: inline;
+    }
+    .tab-img{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:980px)
+{
+    .hover-text{
+        top: 47%;
+        left: 47%;
+        width: 97%;
+        height: 100%;
+    }
+    .hover-text h3{
+        font-size: 17px;
+    }
+    .icon{
+        font-size: 1.1rem;
+    }
+    .about-description-single{
+        border-top: none;
+      
+    }
+
+}
+/* end  meadia query */
